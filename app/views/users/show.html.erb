@@ -1,0 +1,10 @@
+<h2>User.name</h2>
+
+<ul>
+	<li><%= @user.name %></li>
+	<li><%= @user.age %></li>
+	<li><%= @user.height %></li>
+</ul>
+
+<%= link_to "Restaurants", user_restaurants_path(@user.id) %>
+<%= link_to "Rides", user_rides_path(@user.id) %>
