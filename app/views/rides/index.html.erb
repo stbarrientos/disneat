@@ -2,6 +2,6 @@
 
 <ul>
 	<% @rides.each do |ride| %>
-	<li><%= link_to ride.name, user_rides_path(@user.id) %></li>
+	<li><%= link_to ride.name, user_ride_path(@user.id, ride.id) %></li>
 	<% end %>
 </ul>

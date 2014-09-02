@@ -1,0 +1,7 @@
+<h2><%= @ride.name %></h2>
+<ul>
+	<li>Minimum Height: <%= @ride.min_height %></li>
+</ul>
+
+<%= link_to "Restaurants", user_restaurants_path(@user.id) %>
+<%= link_to "Users", users_path %>

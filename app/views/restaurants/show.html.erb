@@ -1,0 +1,7 @@
+<h2><%= @restaurant.name %></h2>
+
+<ul>
+	<li>Serves Alcohol? <%= @restaurant.serves_alcohol ? "Yes" : "No" %></li>
+</ul>
+
+<%= link_to "Rides", user_rides_path(@user.id) %> <%= link_to "Users", users_path %>
